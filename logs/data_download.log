@@ -1,0 +1,14 @@
+2026-04-09 23:40:54,837 - INFO - Downloading WTI oil data from FRED
+2026-04-09 23:40:58,401 - INFO - Saved oil data: 10133 rows
+2026-04-09 23:40:58,401 - INFO - Downloading gas price data from FRED
+2026-04-09 23:40:58,578 - INFO - Saved gas data: 1854 rows
+2026-04-09 23:40:58,578 - INFO - Merging oil and gas datasets
+2026-04-09 23:40:58,586 - INFO - Merged dataset saved: 1678 rows
+2026-04-09 23:40:58,600 - INFO - Script completed successfully
+2026-04-09 23:42:40,311 - INFO - Downloading WTI oil data from FRED
+2026-04-09 23:42:40,723 - INFO - Saved oil data: 10133 rows
+2026-04-09 23:42:40,723 - INFO - Downloading gas price data from FRED
+2026-04-09 23:42:40,873 - INFO - Saved gas data: 1854 rows
+2026-04-09 23:42:40,873 - INFO - Merging oil and gas datasets
+2026-04-09 23:42:40,881 - INFO - Merged dataset saved: 1678 rows
+2026-04-09 23:42:40,885 - INFO - Script completed successfully
