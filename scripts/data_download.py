@@ -2,9 +2,7 @@ import os
 import logging
 import pandas as pd
 
-# -----------------------------
 # Setup logging
-# -----------------------------
 LOG_DIR = "logs"
 os.makedirs(LOG_DIR, exist_ok=True)
 
@@ -16,16 +14,12 @@ logging.basicConfig(
 
 logger = logging.getLogger()
 
-# -----------------------------
 # Create Data folder
-# -----------------------------
-DATA_DIR = "Data"
+DATA_DIR = "data"
 os.makedirs(DATA_DIR, exist_ok=True)
 
 
-# -----------------------------
 # Download WTI Oil Data (FRED)
-# -----------------------------
 def download_oil_data(start="1986-01-01"):
     try:
         logger.info("Downloading WTI oil data from FRED")
@@ -53,9 +47,7 @@ def download_oil_data(start="1986-01-01"):
         raise
 
 
-# -----------------------------
 # Download Gas Price Data (FRED)
-# -----------------------------
 def download_gas_data(start="1986-01-01"):
     try:
         logger.info("Downloading gas price data from FRED")
@@ -83,9 +75,7 @@ def download_gas_data(start="1986-01-01"):
         raise
 
 
-# -----------------------------
 # Merge datasets
-# -----------------------------
 def merge_data(oil, gas):
     try:
         logger.info("Merging oil and gas datasets")
@@ -104,9 +94,7 @@ def merge_data(oil, gas):
         raise
 
 
-# -----------------------------
 # Main script
-# -----------------------------
 if __name__ == "__main__":
     try:
         oil_df = download_oil_data()
