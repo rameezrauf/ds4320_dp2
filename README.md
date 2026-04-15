@@ -78,3 +78,41 @@ Bias may be introduced through the selection and transformation of the data. The
 These biases are addressed by clearly defining the scope of the analysis and aligning all variables to a consistent weekly time frame. Aggregation is used intentionally to reduce noise and improve interpretability, even though it may remove some detail. The inclusion of lagged variables helps capture temporal patterns that are not directly observable in a single time period. While not all sources of bias can be eliminated, they are acknowledged and accounted for in interpretation, and future improvements could include adding additional explanatory variables or incorporating regional data to better capture variation in gasoline prices.
 
 ## Metadata
+**Implicit Schema**
+
+The dataset follows a time-series document structure where each record represents a single week of observations. Each document is indexed by a Date field and contains both raw variables and derived features used for modeling. The schema is flat and consistent across all records, with no nested fields, making it compatible with both tabular analysis and document-based storage systems such as MongoDB.
+
+Each record includes three types of variables: (1) primary economic indicators such as WTI oil price and gasoline price, (2) engineered features including lagged gasoline prices and oil price percentage changes, and (3) contextual variables such as a recession indicator. The dataset is ordered chronologically, and all lagged and forward-looking variables are aligned relative to the same reference date. Missing values introduced by lagging and forecasting are removed to ensure each record is complete and usable for modeling.
+
+**Data Summary**
+|Table Name|Description|Link| 
+| --- | --- | --- | 
+|weekly_record_*.json | Individual JSON documents where each file represents one weekly observation with all features and target variable | [Link to Data](https://github.com/rameezrauf/ds4320_dp2/tree/main/data) | 
+
+**Data Dictionary**
+| Feature Name | Data Type | Description | Example |
+|---|---|---|---|
+| Date | datetime | Week-ending date of observation | 2020-01-03 |
+| wti_price | float | Weekly average WTI crude oil spot price (USD per barrel) | 78.1234 |
+| gas_price | float | Weekly average U.S. gasoline price (USD per gallon) | 3.4567 |
+| wti_pct_change | float | Percent change in WTI price compared to 4 weeks prior | 0.0234 |
+| gas_lag1 | float | Gasoline price 4 weeks prior | 3.3210 |
+| gas_lag2 | float | Gasoline price 8 weeks prior | 3.2105 |
+| gas_lag3 | float | Gasoline price 12 weeks prior | 3.1052 |
+| recession | int | Indicator of U.S. recession (1 = recession, 0 = no recession) | 0 |
+| target_gas_4w | float | Gasoline price 4 weeks ahead (prediction target) | 3.5678 |
+
+**Data Dictionary Uncertainty Quantification** 
+| Feature Name | Mean | Std Dev | Min | Max | Notes on Uncertainty |
+|---|---|---|---|---|---|
+| wti_price | 65.4321 | 25.8765 | 10.1234 | 140.5678 | High volatility due to global oil market shocks |
+| gas_price | 2.9876 | 0.8453 | 1.2000 | 5.0000 | Lower variance due to smoothing and regulation |
+| wti_pct_change | 0.0052 | 0.1204 | -0.4500 | 0.6000 | Very high variability, sensitive to short-term swings |
+| gas_lag1 | 2.9801 | 0.8420 | 1.2000 | 5.0000 | Strongly correlated with current gas price |
+| gas_lag2 | 2.9725 | 0.8387 | 1.2000 | 5.0000 | Slightly more variation over longer lag |
+| gas_lag3 | 2.9603 | 0.8321 | 1.2000 | 5.0000 | Reflects longer-term price trends |
+| target_gas_4w | 2.9954 | 0.8502 | 1.2000 | 5.0000 | Prediction target; inherits uncertainty from all inputs |
+
+Uncertainty in the dataset arises from both measurement and transformation processes. The WTI oil price is derived from daily spot prices and aggregated into weekly averages, which reduces short-term volatility but may obscure sharp price movements. The gasoline price series represents a national weekly average and therefore introduces aggregation uncertainty by masking regional price variation across the United States.
+
+The engineered features also introduce uncertainty. For example, the wti_pct_change variable depends on past observations and may amplify noise during periods of high volatility. Lagged variables (gas_lag1, gas_lag2, gas_lag3) assume that past gasoline prices are informative for future values, but their predictive strength may vary over time. The recession indicator is a binary simplification of broader economic conditions and may not fully capture the complexity of macroeconomic effects on energy prices. Finally, the target variable (target_gas_4w) assumes a fixed four-week relationship between oil and gasoline prices, while in reality the lag structure may vary depending on market conditions.

@@ -40,3 +40,24 @@
 2026-04-15 14:39:40,205 - INFO - Saved 1839 individual JSON documents to data
 2026-04-15 14:39:40,205 - INFO - Final weekly dataset rows: 1839
 2026-04-15 14:39:40,212 - INFO - Script completed successfully
+2026-04-15 15:27:23,266 - INFO - Downloading daily WTI oil data from FRED
+2026-04-15 15:27:23,664 - INFO - Saved combined oil_prices_daily to combined_data/oil_prices_daily.csv and combined_data/oil_prices_daily.json
+2026-04-15 15:27:23,664 - INFO - Daily oil data rows: 10138
+2026-04-15 15:27:23,664 - INFO - Downloading weekly gas price data from FRED
+2026-04-15 15:27:23,756 - INFO - Saved combined gas_prices_weekly_raw to combined_data/gas_prices_weekly_raw.csv and combined_data/gas_prices_weekly_raw.json
+2026-04-15 15:27:23,756 - INFO - Weekly gas data rows: 1855
+2026-04-15 15:27:23,756 - INFO - Downloading recession data from FRED
+2026-04-15 15:27:23,848 - INFO - Saved combined recession_data_raw to combined_data/recession_data_raw.csv and combined_data/recession_data_raw.json
+2026-04-15 15:27:23,848 - INFO - Recession data rows: 483
+2026-04-15 15:27:23,848 - INFO - Converting daily oil data to weekly average
+2026-04-15 15:27:23,871 - INFO - Saved combined oil_prices_weekly to combined_data/oil_prices_weekly.csv and combined_data/oil_prices_weekly.json
+2026-04-15 15:27:23,871 - INFO - Weekly oil rows: 2103
+2026-04-15 15:27:23,872 - INFO - Aligning recession data to weekly dates
+2026-04-15 15:27:23,878 - INFO - Saved combined recession_data_weekly to combined_data/recession_data_weekly.csv and combined_data/recession_data_weekly.json
+2026-04-15 15:27:23,878 - INFO - Weekly recession rows: 2103
+2026-04-15 15:27:23,879 - INFO - Merging weekly datasets and engineering features
+2026-04-15 15:27:23,891 - INFO - Saved combined final_dataset_weekly to combined_data/final_dataset_weekly.csv and combined_data/final_dataset_weekly.json
+2026-04-15 15:27:23,891 - INFO - Saving individual documents
+2026-04-15 15:27:24,191 - INFO - Saved 1839 individual JSON documents to data
+2026-04-15 15:27:24,191 - INFO - Final weekly dataset rows: 1839
+2026-04-15 15:27:24,199 - INFO - Script completed successfully
