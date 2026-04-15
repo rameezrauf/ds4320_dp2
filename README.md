@@ -3,11 +3,11 @@
 **Executive Summary**
 
 **Rameez Rauf**
-**Xqd7aq**
-**DOI**
-(Link to Press Release)[]
-(Link to Pipeline)[]
-**License**
+**xqd7aq**
+**DOI:** 10.5281/zenodo.19600039
+[Link to Press Release](https://github.com/rameezrauf/ds4320_dp2/blob/main/docs/press_release.md)
+[Link to Pipeline]()
+[License]()
 
 ## Problem Definition
 **Problem Definition**
