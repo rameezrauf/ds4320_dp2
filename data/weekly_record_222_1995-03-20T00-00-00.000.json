@@ -1,0 +1,11 @@
+{
+  "Date": "1995-03-20T00:00:00.000",
+  "gas_price": 1.068,
+  "wti_price": 18.132,
+  "recession": 0,
+  "wti_pct_change": -0.0226,
+  "gas_lag1": 1.067,
+  "gas_lag2": 1.083,
+  "gas_lag3": 1.077,
+  "target_gas_4w": 1.117
+}

@@ -1,0 +1,11 @@
+{
+  "Date": "2016-06-20T00:00:00.000",
+  "gas_price": 2.353,
+  "wti_price": 47.888,
+  "recession": 0,
+  "wti_pct_change": -0.0022,
+  "gas_lag1": 2.3,
+  "gas_lag2": 2.162,
+  "gas_lag3": 2.066,
+  "target_gas_4w": 2.23
+}

@@ -1,0 +1,11 @@
+{
+  "Date": "2016-03-28T00:00:00.000",
+  "gas_price": 2.066,
+  "wti_price": 39.445,
+  "recession": 0,
+  "wti_pct_change": 0.2593,
+  "gas_lag1": 1.783,
+  "gas_lag2": 1.822,
+  "gas_lag3": 2.028,
+  "target_gas_4w": 2.162
+}

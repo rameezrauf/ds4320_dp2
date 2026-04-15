@@ -1,0 +1,11 @@
+{
+  "Date": "2025-09-22T00:00:00.000",
+  "gas_price": 3.173,
+  "wti_price": 63.978,
+  "recession": 0,
+  "wti_pct_change": -0.0026,
+  "gas_lag1": 3.147,
+  "gas_lag2": 3.123,
+  "gas_lag3": 3.164,
+  "target_gas_4w": 3.019
+}

@@ -1,0 +1,11 @@
+{
+  "Date": "2013-05-20T00:00:00.000",
+  "gas_price": 3.673,
+  "wti_price": 94.648,
+  "recession": 0,
+  "wti_pct_change": 0.0755,
+  "gas_lag1": 3.536,
+  "gas_lag2": 3.68,
+  "gas_lag3": 3.784,
+  "target_gas_4w": 3.626
+}

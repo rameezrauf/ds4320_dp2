@@ -1,0 +1,11 @@
+{
+  "Date": "2023-05-15T00:00:00.000",
+  "gas_price": 3.536,
+  "wti_price": 72.034,
+  "recession": 0,
+  "wti_pct_change": -0.1201,
+  "gas_lag1": 3.663,
+  "gas_lag2": 3.422,
+  "gas_lag3": 3.379,
+  "target_gas_4w": 3.595
+}

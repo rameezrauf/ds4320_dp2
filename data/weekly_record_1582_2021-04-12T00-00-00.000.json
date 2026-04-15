@@ -1,0 +1,11 @@
+{
+  "Date": "2021-04-12T00:00:00.000",
+  "gas_price": 2.849,
+  "wti_price": 59.348,
+  "recession": 0,
+  "wti_pct_change": -0.0873,
+  "gas_lag1": 2.853,
+  "gas_lag2": 2.501,
+  "gas_lag3": 2.379,
+  "target_gas_4w": 2.961
+}

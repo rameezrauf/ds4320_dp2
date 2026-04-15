@@ -1,0 +1,11 @@
+{
+  "Date": "2016-05-09T00:00:00.000",
+  "gas_price": 2.22,
+  "wti_price": 44.216,
+  "recession": 0,
+  "wti_pct_change": 0.2041,
+  "gas_lag1": 2.069,
+  "gas_lag2": 1.961,
+  "gas_lag3": 1.724,
+  "target_gas_4w": 2.381
+}

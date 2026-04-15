@@ -1,0 +1,11 @@
+{
+  "Date": "2021-11-29T00:00:00.000",
+  "gas_price": 3.38,
+  "wti_price": 77.7933,
+  "recession": 0,
+  "wti_pct_change": -0.0722,
+  "gas_lag1": 3.39,
+  "gas_lag2": 3.19,
+  "gas_lag3": 3.176,
+  "target_gas_4w": 3.275
+}

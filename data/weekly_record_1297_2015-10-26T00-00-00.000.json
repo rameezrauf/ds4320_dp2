@@ -1,0 +1,11 @@
+{
+  "Date": "2015-10-26T00:00:00.000",
+  "gas_price": 2.228,
+  "wti_price": 45.156,
+  "recession": 0,
+  "wti_pct_change": -0.0091,
+  "gas_lag1": 2.322,
+  "gas_lag2": 2.51,
+  "gas_lag3": 2.689,
+  "target_gas_4w": 2.094
+}

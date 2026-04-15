@@ -1,0 +1,11 @@
+{
+  "Date": "2018-07-16T00:00:00.000",
+  "gas_price": 2.865,
+  "wti_price": 71.964,
+  "recession": 0,
+  "wti_pct_change": 0.087,
+  "gas_lag1": 2.879,
+  "gas_lag2": 2.923,
+  "gas_lag3": 2.798,
+  "target_gas_4w": 2.843
+}

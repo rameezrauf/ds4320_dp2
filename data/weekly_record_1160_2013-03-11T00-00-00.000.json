@@ -1,0 +1,11 @@
+{
+  "Date": "2013-03-11T00:00:00.000",
+  "gas_price": 3.71,
+  "wti_price": 91.004,
+  "recession": 0,
+  "wti_pct_change": -0.0538,
+  "gas_lag1": 3.611,
+  "gas_lag2": 3.303,
+  "gas_lag3": 3.254,
+  "target_gas_4w": 3.608
+}

@@ -1,0 +1,11 @@
+{
+  "Date": "2014-03-24T00:00:00.000",
+  "gas_price": 3.549,
+  "wti_price": 99.774,
+  "recession": 0,
+  "wti_pct_change": -0.0307,
+  "gas_lag1": 3.444,
+  "gas_lag2": 3.295,
+  "gas_lag3": 3.331,
+  "target_gas_4w": 3.683
+}

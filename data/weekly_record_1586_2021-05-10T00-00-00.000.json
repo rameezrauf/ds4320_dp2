@@ -1,0 +1,11 @@
+{
+  "Date": "2021-05-10T00:00:00.000",
+  "gas_price": 2.961,
+  "wti_price": 65.1,
+  "recession": 0,
+  "wti_pct_change": 0.0969,
+  "gas_lag1": 2.849,
+  "gas_lag2": 2.853,
+  "gas_lag3": 2.501,
+  "target_gas_4w": 3.035
+}

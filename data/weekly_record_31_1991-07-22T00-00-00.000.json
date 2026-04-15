@@ -1,0 +1,11 @@
+{
+  "Date": "1991-07-22T00:00:00.000",
+  "gas_price": 1.091,
+  "wti_price": 21.906,
+  "recession": 0,
+  "wti_pct_change": 0.091,
+  "gas_lag1": 1.114,
+  "gas_lag2": 1.14,
+  "gas_lag3": 1.104,
+  "target_gas_4w": 1.124
+}

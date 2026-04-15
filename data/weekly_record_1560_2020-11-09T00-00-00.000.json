@@ -1,0 +1,11 @@
+{
+  "Date": "2020-11-09T00:00:00.000",
+  "gas_price": 2.096,
+  "wti_price": 37.708,
+  "recession": 0,
+  "wti_pct_change": -0.0617,
+  "gas_lag1": 2.167,
+  "gas_lag2": 2.183,
+  "gas_lag3": 2.166,
+  "target_gas_4w": 2.156
+}

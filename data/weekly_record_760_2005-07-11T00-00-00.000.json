@@ -1,0 +1,11 @@
+{
+  "Date": "2005-07-11T00:00:00.000",
+  "gas_price": 2.328,
+  "wti_price": 60.355,
+  "recession": 0,
+  "wti_pct_change": 0.123,
+  "gas_lag1": 2.13,
+  "gas_lag2": 2.163,
+  "gas_lag3": 2.237,
+  "target_gas_4w": 2.368
+}

@@ -1,0 +1,11 @@
+{
+  "Date": "2019-03-25T00:00:00.000",
+  "gas_price": 2.623,
+  "wti_price": 59.436,
+  "recession": 0,
+  "wti_pct_change": 0.0474,
+  "gas_lag1": 2.39,
+  "gas_lag2": 2.256,
+  "gas_lag3": 2.266,
+  "target_gas_4w": 2.841
+}

@@ -1,0 +1,11 @@
+{
+  "Date": "2006-08-28T00:00:00.000",
+  "gas_price": 2.845,
+  "wti_price": 72.12,
+  "recession": 0,
+  "wti_pct_change": -0.0237,
+  "gas_lag1": 3.004,
+  "gas_lag2": 2.934,
+  "gas_lag3": 2.892,
+  "target_gas_4w": 2.378
+}

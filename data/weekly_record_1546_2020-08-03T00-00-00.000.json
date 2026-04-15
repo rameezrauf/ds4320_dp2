@@ -1,0 +1,11 @@
+{
+  "Date": "2020-08-03T00:00:00.000",
+  "gas_price": 2.176,
+  "wti_price": 40.686,
+  "recession": 0,
+  "wti_pct_change": 0.021,
+  "gas_lag1": 2.177,
+  "gas_lag2": 2.036,
+  "gas_lag3": 1.851,
+  "target_gas_4w": 2.222
+}

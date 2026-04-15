@@ -1,0 +1,11 @@
+{
+  "Date": "1992-09-28T00:00:00.000",
+  "gas_price": 1.118,
+  "wti_price": 21.71,
+  "recession": 0,
+  "wti_pct_change": 0.0133,
+  "gas_lag1": 1.121,
+  "gas_lag2": 1.126,
+  "gas_lag3": 1.147,
+  "target_gas_4w": 1.113
+}

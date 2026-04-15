@@ -1,0 +1,11 @@
+{
+  "Date": "2008-10-13T00:00:00.000",
+  "gas_price": 3.151,
+  "wti_price": 86.242,
+  "recession": 1,
+  "wti_pct_change": -0.1617,
+  "gas_lag1": 3.835,
+  "gas_lag2": 3.74,
+  "gas_lag3": 4.064,
+  "target_gas_4w": 2.224
+}

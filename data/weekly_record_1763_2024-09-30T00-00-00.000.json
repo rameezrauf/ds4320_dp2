@@ -1,0 +1,11 @@
+{
+  "Date": "2024-09-30T00:00:00.000",
+  "gas_price": 3.179,
+  "wti_price": 70.218,
+  "recession": 0,
+  "wti_pct_change": -0.0805,
+  "gas_lag1": 3.289,
+  "gas_lag2": 3.448,
+  "gas_lag3": 3.489,
+  "target_gas_4w": 3.097
+}

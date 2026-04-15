@@ -1,0 +1,11 @@
+{
+  "Date": "2019-05-27T00:00:00.000",
+  "gas_price": 2.822,
+  "wti_price": 60.722,
+  "recession": 0,
+  "wti_pct_change": -0.0698,
+  "gas_lag1": 2.887,
+  "gas_lag2": 2.691,
+  "gas_lag3": 2.422,
+  "target_gas_4w": 2.654
+}

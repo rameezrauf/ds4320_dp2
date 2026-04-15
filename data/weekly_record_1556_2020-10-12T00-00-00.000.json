@@ -1,0 +1,11 @@
+{
+  "Date": "2020-10-12T00:00:00.000",
+  "gas_price": 2.167,
+  "wti_price": 40.188,
+  "recession": 0,
+  "wti_pct_change": 0.0753,
+  "gas_lag1": 2.183,
+  "gas_lag2": 2.166,
+  "gas_lag3": 2.186,
+  "target_gas_4w": 2.096
+}

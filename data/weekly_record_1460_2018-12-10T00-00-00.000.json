@@ -1,0 +1,11 @@
+{
+  "Date": "2018-12-10T00:00:00.000",
+  "gas_price": 2.421,
+  "wti_price": 52.626,
+  "recession": 0,
+  "wti_pct_change": -0.1453,
+  "gas_lag1": 2.686,
+  "gas_lag2": 2.879,
+  "gas_lag3": 2.841,
+  "target_gas_4w": 2.237
+}

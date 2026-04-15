@@ -1,0 +1,11 @@
+{
+  "Date": "2020-06-15T00:00:00.000",
+  "gas_price": 2.098,
+  "wti_price": 37.872,
+  "recession": 0,
+  "wti_pct_change": 0.4347,
+  "gas_lag1": 1.878,
+  "gas_lag2": 1.812,
+  "gas_lag3": 2.12,
+  "target_gas_4w": 2.195
+}

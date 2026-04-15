@@ -1,0 +1,11 @@
+{
+  "Date": "1994-04-11T00:00:00.000",
+  "gas_price": 1.028,
+  "wti_price": 15.654,
+  "recession": 0,
+  "wti_pct_change": 0.0993,
+  "gas_lag1": 1.005,
+  "gas_lag2": 1.016,
+  "gas_lag3": 1.001,
+  "target_gas_4w": 1.045
+}

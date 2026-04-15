@@ -1,0 +1,11 @@
+{
+  "Date": "2019-04-01T00:00:00.000",
+  "gas_price": 2.691,
+  "wti_price": 59.49,
+  "recession": 0,
+  "wti_pct_change": 0.06,
+  "gas_lag1": 2.422,
+  "gas_lag2": 2.254,
+  "gas_lag3": 2.237,
+  "target_gas_4w": 2.887
+}

@@ -1,0 +1,11 @@
+{
+  "Date": "2019-07-22T00:00:00.000",
+  "gas_price": 2.75,
+  "wti_price": 56.748,
+  "recession": 0,
+  "wti_pct_change": 0.0364,
+  "gas_lag1": 2.654,
+  "gas_lag2": 2.822,
+  "gas_lag3": 2.887,
+  "target_gas_4w": 2.598
+}

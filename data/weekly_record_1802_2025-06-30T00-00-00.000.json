@@ -1,0 +1,11 @@
+{
+  "Date": "2025-06-30T00:00:00.000",
+  "gas_price": 3.164,
+  "wti_price": 66.778,
+  "recession": 0,
+  "wti_pct_change": 0.0802,
+  "gas_lag1": 3.127,
+  "gas_lag2": 3.147,
+  "gas_lag3": 3.243,
+  "target_gas_4w": 3.123
+}

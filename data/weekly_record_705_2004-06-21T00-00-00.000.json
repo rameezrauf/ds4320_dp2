@@ -1,0 +1,11 @@
+{
+  "Date": "2004-06-21T00:00:00.000",
+  "gas_price": 1.937,
+  "wti_price": 37.856,
+  "recession": 0,
+  "wti_pct_change": -0.0731,
+  "gas_lag1": 2.064,
+  "gas_lag2": 1.812,
+  "gas_lag3": 1.758,
+  "target_gas_4w": 1.928
+}

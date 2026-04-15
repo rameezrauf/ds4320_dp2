@@ -1,0 +1,11 @@
+{
+  "Date": "2000-06-19T00:00:00.000",
+  "gas_price": 1.681,
+  "wti_price": 32.452,
+  "recession": 0,
+  "wti_pct_change": 0.0862,
+  "gas_lag1": 1.527,
+  "gas_lag2": 1.437,
+  "gas_lag3": 1.508,
+  "target_gas_4w": 1.546
+}

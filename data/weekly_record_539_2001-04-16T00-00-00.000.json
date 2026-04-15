@@ -1,0 +1,11 @@
+{
+  "Date": "2001-04-16T00:00:00.000",
+  "gas_price": 1.571,
+  "wti_price": 28.2725,
+  "recession": 1,
+  "wti_pct_change": 0.0464,
+  "gas_lag1": 1.404,
+  "gas_lag2": 1.449,
+  "gas_lag3": 1.471,
+  "target_gas_4w": 1.713
+}

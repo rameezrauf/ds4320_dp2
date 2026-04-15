@@ -1,0 +1,11 @@
+{
+  "Date": "1996-10-21T00:00:00.000",
+  "gas_price": 1.204,
+  "wti_price": 25.45,
+  "recession": 0,
+  "wti_pct_change": 0.0821,
+  "gas_lag1": 1.206,
+  "gas_lag2": 1.209,
+  "gas_lag3": 1.218,
+  "target_gas_4w": 1.236
+}

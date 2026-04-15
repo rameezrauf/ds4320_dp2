@@ -1,0 +1,11 @@
+{
+  "Date": "2002-01-07T00:00:00.000",
+  "gas_price": 1.112,
+  "wti_price": 20.8025,
+  "recession": 0,
+  "wti_pct_change": 0.0682,
+  "gas_lag1": 1.095,
+  "gas_lag2": 1.182,
+  "gas_lag3": 1.309,
+  "target_gas_4w": 1.116
+}

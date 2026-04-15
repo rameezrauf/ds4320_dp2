@@ -1,0 +1,11 @@
+{
+  "Date": "2005-09-26T00:00:00.000",
+  "gas_price": 2.803,
+  "wti_price": 66.43,
+  "recession": 0,
+  "wti_pct_change": 0.0013,
+  "gas_lag1": 2.61,
+  "gas_lag2": 2.291,
+  "gas_lag3": 2.226,
+  "target_gas_4w": 2.603
+}

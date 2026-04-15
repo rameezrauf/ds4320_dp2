@@ -1,0 +1,11 @@
+{
+  "Date": "2026-02-09T00:00:00.000",
+  "gas_price": 2.902,
+  "wti_price": 63.09,
+  "recession": 0,
+  "wti_pct_change": 0.0961,
+  "gas_lag1": 2.779,
+  "gas_lag2": 2.895,
+  "gas_lag3": 3.062,
+  "target_gas_4w": 3.502
+}

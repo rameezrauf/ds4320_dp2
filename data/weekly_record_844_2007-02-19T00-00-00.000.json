@@ -1,0 +1,11 @@
+{
+  "Date": "2007-02-19T00:00:00.000",
+  "gas_price": 2.296,
+  "wti_price": 58.408,
+  "recession": 0,
+  "wti_pct_change": 0.134,
+  "gas_lag1": 2.165,
+  "gas_lag2": 2.341,
+  "gas_lag3": 2.246,
+  "target_gas_4w": 2.577
+}

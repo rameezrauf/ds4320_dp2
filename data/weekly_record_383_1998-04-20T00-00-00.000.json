@@ -1,0 +1,11 @@
+{
+  "Date": "1998-04-20T00:00:00.000",
+  "gas_price": 1.028,
+  "wti_price": 15.526,
+  "recession": 0,
+  "wti_pct_change": 0.1062,
+  "gas_lag1": 1.0,
+  "gas_lag2": 1.044,
+  "gas_lag3": 1.066,
+  "target_gas_4w": 1.072
+}

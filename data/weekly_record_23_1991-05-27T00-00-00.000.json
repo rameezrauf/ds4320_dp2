@@ -1,0 +1,11 @@
+{
+  "Date": "1991-05-27T00:00:00.000",
+  "gas_price": 1.14,
+  "wti_price": 21.036,
+  "recession": 0,
+  "wti_pct_change": -0.0072,
+  "gas_lag1": 1.104,
+  "gas_lag2": 1.052,
+  "gas_lag3": 1.025,
+  "target_gas_4w": 1.114
+}

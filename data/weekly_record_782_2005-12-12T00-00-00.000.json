@@ -1,0 +1,11 @@
+{
+  "Date": "2005-12-12T00:00:00.000",
+  "gas_price": 2.185,
+  "wti_price": 59.83,
+  "recession": 0,
+  "wti_pct_change": 0.0175,
+  "gas_lag1": 2.296,
+  "gas_lag2": 2.725,
+  "gas_lag3": 2.786,
+  "target_gas_4w": 2.327
+}

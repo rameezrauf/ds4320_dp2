@@ -1,0 +1,11 @@
+{
+  "Date": "2015-12-14T00:00:00.000",
+  "gas_price": 2.037,
+  "wti_price": 36.934,
+  "recession": 0,
+  "wti_pct_change": -0.135,
+  "gas_lag1": 2.178,
+  "gas_lag2": 2.277,
+  "gas_lag3": 2.327,
+  "target_gas_4w": 1.996
+}

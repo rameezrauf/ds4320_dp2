@@ -1,0 +1,11 @@
+{
+  "Date": "2021-08-02T00:00:00.000",
+  "gas_price": 3.159,
+  "wti_price": 72.75,
+  "recession": 0,
+  "wti_pct_change": -0.0178,
+  "gas_lag1": 3.122,
+  "gas_lag2": 3.035,
+  "gas_lag3": 2.961,
+  "target_gas_4w": 3.139
+}

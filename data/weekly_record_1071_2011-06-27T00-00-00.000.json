@@ -1,0 +1,11 @@
+{
+  "Date": "2011-06-27T00:00:00.000",
+  "gas_price": 3.574,
+  "wti_price": 92.696,
+  "recession": 0,
+  "wti_pct_change": -0.0688,
+  "gas_lag1": 3.794,
+  "gas_lag2": 3.963,
+  "gas_lag3": 3.684,
+  "target_gas_4w": 3.699
+}

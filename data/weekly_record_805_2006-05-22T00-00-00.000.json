@@ -1,0 +1,11 @@
+{
+  "Date": "2006-05-22T00:00:00.000",
+  "gas_price": 2.892,
+  "wti_price": 69.074,
+  "recession": 0,
+  "wti_pct_change": -0.0389,
+  "gas_lag1": 2.914,
+  "gas_lag2": 2.498,
+  "gas_lag3": 2.254,
+  "target_gas_4w": 2.871
+}

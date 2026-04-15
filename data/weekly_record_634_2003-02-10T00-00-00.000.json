@@ -1,0 +1,11 @@
+{
+  "Date": "2003-02-10T00:00:00.000",
+  "gas_price": 1.607,
+  "wti_price": 33.954,
+  "recession": 0,
+  "wti_pct_change": 0.0766,
+  "gas_lag1": 1.454,
+  "gas_lag2": 1.363,
+  "gas_lag3": 1.409,
+  "target_gas_4w": 1.712
+}

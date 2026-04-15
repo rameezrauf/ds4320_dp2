@@ -1,0 +1,11 @@
+{
+  "Date": "1998-02-02T00:00:00.000",
+  "gas_price": 1.061,
+  "wti_price": 17.302,
+  "recession": 0,
+  "wti_pct_change": -0.0155,
+  "gas_lag1": 1.102,
+  "gas_lag2": 1.141,
+  "gas_lag3": 1.177,
+  "target_gas_4w": 1.028
+}

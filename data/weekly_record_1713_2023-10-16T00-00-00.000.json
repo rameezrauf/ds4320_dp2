@@ -1,0 +1,11 @@
+{
+  "Date": "2023-10-16T00:00:00.000",
+  "gas_price": 3.576,
+  "wti_price": 85.0325,
+  "recession": 0,
+  "wti_pct_change": -0.0461,
+  "gas_lag1": 3.878,
+  "gas_lag2": 3.868,
+  "gas_lag3": 3.596,
+  "target_gas_4w": 3.349
+}

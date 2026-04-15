@@ -1,28 +1,42 @@
-2026-04-09 23:40:54,837 - INFO - Downloading WTI oil data from FRED
-2026-04-09 23:40:58,401 - INFO - Saved oil data: 10133 rows
-2026-04-09 23:40:58,401 - INFO - Downloading gas price data from FRED
-2026-04-09 23:40:58,578 - INFO - Saved gas data: 1854 rows
-2026-04-09 23:40:58,578 - INFO - Merging oil and gas datasets
-2026-04-09 23:40:58,586 - INFO - Merged dataset saved: 1678 rows
-2026-04-09 23:40:58,600 - INFO - Script completed successfully
-2026-04-09 23:42:40,311 - INFO - Downloading WTI oil data from FRED
-2026-04-09 23:42:40,723 - INFO - Saved oil data: 10133 rows
-2026-04-09 23:42:40,723 - INFO - Downloading gas price data from FRED
-2026-04-09 23:42:40,873 - INFO - Saved gas data: 1854 rows
-2026-04-09 23:42:40,873 - INFO - Merging oil and gas datasets
-2026-04-09 23:42:40,881 - INFO - Merged dataset saved: 1678 rows
-2026-04-09 23:42:40,885 - INFO - Script completed successfully
-2026-04-09 23:46:48,417 - INFO - Downloading WTI oil data from FRED
-2026-04-09 23:46:50,086 - INFO - Saved oil data: 10133 rows
-2026-04-09 23:46:50,086 - INFO - Downloading gas price data from FRED
-2026-04-09 23:46:50,237 - INFO - Saved gas data: 1854 rows
-2026-04-09 23:46:50,237 - INFO - Merging oil and gas datasets
-2026-04-09 23:46:50,242 - INFO - Merged dataset saved: 1678 rows
-2026-04-09 23:46:50,246 - INFO - Script completed successfully
-2026-04-09 23:46:51,488 - INFO - Downloading WTI oil data from FRED
-2026-04-09 23:46:51,782 - INFO - Saved oil data: 10133 rows
-2026-04-09 23:46:51,782 - INFO - Downloading gas price data from FRED
-2026-04-09 23:46:51,928 - INFO - Saved gas data: 1854 rows
-2026-04-09 23:46:51,928 - INFO - Merging oil and gas datasets
-2026-04-09 23:46:51,933 - INFO - Merged dataset saved: 1678 rows
-2026-04-09 23:46:51,938 - INFO - Script completed successfully
+2026-04-15 14:13:24,988 - INFO - Downloading daily WTI oil data from FRED
+2026-04-15 14:13:26,664 - INFO - Saved combined oil_prices_daily to combined_data/oil_prices_daily.csv and combined_data/oil_prices_daily.json
+2026-04-15 14:13:26,664 - INFO - Daily oil data rows: 10138
+2026-04-15 14:13:26,664 - INFO - Downloading weekly gas price data from FRED
+2026-04-15 14:13:26,788 - INFO - Saved combined gas_prices_weekly_raw to combined_data/gas_prices_weekly_raw.csv and combined_data/gas_prices_weekly_raw.json
+2026-04-15 14:13:26,788 - INFO - Weekly gas data rows: 1855
+2026-04-15 14:13:26,788 - INFO - Downloading recession data from FRED
+2026-04-15 14:13:27,639 - INFO - Saved combined recession_data_raw to combined_data/recession_data_raw.csv and combined_data/recession_data_raw.json
+2026-04-15 14:13:27,639 - INFO - Recession data rows: 483
+2026-04-15 14:13:27,639 - INFO - Converting daily oil data to weekly average
+2026-04-15 14:13:27,666 - INFO - Saved combined oil_prices_weekly to combined_data/oil_prices_weekly.csv and combined_data/oil_prices_weekly.json
+2026-04-15 14:13:27,666 - INFO - Weekly oil rows: 2103
+2026-04-15 14:13:27,667 - INFO - Aligning recession data to weekly dates
+2026-04-15 14:13:27,681 - INFO - Saved combined recession_data_weekly to combined_data/recession_data_weekly.csv and combined_data/recession_data_weekly.json
+2026-04-15 14:13:27,681 - INFO - Weekly recession rows: 2103
+2026-04-15 14:13:27,681 - INFO - Merging weekly datasets and engineering features
+2026-04-15 14:13:27,704 - INFO - Saved combined final_dataset_weekly to combined_data/final_dataset_weekly.csv and combined_data/final_dataset_weekly.json
+2026-04-15 14:13:27,704 - INFO - Saving individual documents
+2026-04-15 14:13:28,116 - INFO - Saved 1839 individual JSON documents to data
+2026-04-15 14:13:28,117 - INFO - Final weekly dataset rows: 1839
+2026-04-15 14:13:28,122 - INFO - Script completed successfully
+2026-04-15 14:39:38,092 - INFO - Downloading daily WTI oil data from FRED
+2026-04-15 14:39:39,134 - INFO - Saved combined oil_prices_daily to combined_data/oil_prices_daily.csv and combined_data/oil_prices_daily.json
+2026-04-15 14:39:39,134 - INFO - Daily oil data rows: 10138
+2026-04-15 14:39:39,134 - INFO - Downloading weekly gas price data from FRED
+2026-04-15 14:39:39,396 - INFO - Saved combined gas_prices_weekly_raw to combined_data/gas_prices_weekly_raw.csv and combined_data/gas_prices_weekly_raw.json
+2026-04-15 14:39:39,396 - INFO - Weekly gas data rows: 1855
+2026-04-15 14:39:39,396 - INFO - Downloading recession data from FRED
+2026-04-15 14:39:39,532 - INFO - Saved combined recession_data_raw to combined_data/recession_data_raw.csv and combined_data/recession_data_raw.json
+2026-04-15 14:39:39,532 - INFO - Recession data rows: 483
+2026-04-15 14:39:39,532 - INFO - Converting daily oil data to weekly average
+2026-04-15 14:39:39,568 - INFO - Saved combined oil_prices_weekly to combined_data/oil_prices_weekly.csv and combined_data/oil_prices_weekly.json
+2026-04-15 14:39:39,569 - INFO - Weekly oil rows: 2103
+2026-04-15 14:39:39,569 - INFO - Aligning recession data to weekly dates
+2026-04-15 14:39:39,578 - INFO - Saved combined recession_data_weekly to combined_data/recession_data_weekly.csv and combined_data/recession_data_weekly.json
+2026-04-15 14:39:39,578 - INFO - Weekly recession rows: 2103
+2026-04-15 14:39:39,578 - INFO - Merging weekly datasets and engineering features
+2026-04-15 14:39:39,595 - INFO - Saved combined final_dataset_weekly to combined_data/final_dataset_weekly.csv and combined_data/final_dataset_weekly.json
+2026-04-15 14:39:39,595 - INFO - Saving individual documents
+2026-04-15 14:39:40,205 - INFO - Saved 1839 individual JSON documents to data
+2026-04-15 14:39:40,205 - INFO - Final weekly dataset rows: 1839
+2026-04-15 14:39:40,212 - INFO - Script completed successfully

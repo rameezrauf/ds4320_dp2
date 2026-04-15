@@ -1,0 +1,11 @@
+{
+  "Date": "2006-04-17T00:00:00.000",
+  "gas_price": 2.783,
+  "wti_price": 68.845,
+  "recession": 0,
+  "wti_pct_change": 0.0991,
+  "gas_lag1": 2.504,
+  "gas_lag2": 2.24,
+  "gas_lag3": 2.336,
+  "target_gas_4w": 2.947
+}

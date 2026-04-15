@@ -1,0 +1,11 @@
+{
+  "Date": "2018-02-26T00:00:00.000",
+  "gas_price": 2.548,
+  "wti_price": 62.47,
+  "recession": 0,
+  "wti_pct_change": -0.041,
+  "gas_lag1": 2.607,
+  "gas_lag2": 2.52,
+  "gas_lag3": 2.5,
+  "target_gas_4w": 2.648
+}

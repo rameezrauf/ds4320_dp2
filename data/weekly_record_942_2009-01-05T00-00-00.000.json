@@ -1,0 +1,11 @@
+{
+  "Date": "2009-01-05T00:00:00.000",
+  "gas_price": 1.684,
+  "wti_price": 42.4025,
+  "recession": 1,
+  "wti_pct_change": -0.0701,
+  "gas_lag1": 1.699,
+  "gas_lag2": 2.224,
+  "gas_lag3": 3.151,
+  "target_gas_4w": 1.892
+}

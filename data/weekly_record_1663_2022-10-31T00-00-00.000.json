@@ -1,0 +1,11 @@
+{
+  "Date": "2022-10-31T00:00:00.000",
+  "gas_price": 3.742,
+  "wti_price": 87.87,
+  "recession": 0,
+  "wti_pct_change": 0.0973,
+  "gas_lag1": 3.782,
+  "gas_lag2": 3.746,
+  "gas_lag3": 4.038,
+  "target_gas_4w": 3.534
+}

@@ -1,0 +1,11 @@
+{
+  "Date": "1990-12-03T00:00:00.000",
+  "gas_price": 1.341,
+  "wti_price": 32.324,
+  "recession": 1,
+  "wti_pct_change": -0.0752,
+  "gas_lag1": 1.334,
+  "gas_lag2": 1.333,
+  "gas_lag3": 1.252,
+  "target_gas_4w": 1.106
+}

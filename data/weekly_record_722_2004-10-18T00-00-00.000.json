@@ -1,0 +1,11 @@
+{
+  "Date": "2004-10-18T00:00:00.000",
+  "gas_price": 2.035,
+  "wti_price": 54.116,
+  "recession": 0,
+  "wti_pct_change": 0.219,
+  "gas_lag1": 1.866,
+  "gas_lag2": 1.884,
+  "gas_lag3": 1.905,
+  "target_gas_4w": 1.969
+}

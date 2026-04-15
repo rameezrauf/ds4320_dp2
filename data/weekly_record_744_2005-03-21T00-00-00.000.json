@@ -1,0 +1,11 @@
+{
+  "Date": "2005-03-21T00:00:00.000",
+  "gas_price": 2.109,
+  "wti_price": 55.93,
+  "recession": 0,
+  "wti_pct_change": 0.1696,
+  "gas_lag1": 1.905,
+  "gas_lag2": 1.853,
+  "gas_lag3": 1.791,
+  "target_gas_4w": 2.237
+}

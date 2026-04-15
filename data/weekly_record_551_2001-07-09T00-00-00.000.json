@@ -1,0 +1,11 @@
+{
+  "Date": "2001-07-09T00:00:00.000",
+  "gas_price": 1.437,
+  "wti_price": 26.8675,
+  "recession": 1,
+  "wti_pct_change": -0.0396,
+  "gas_lag1": 1.647,
+  "gas_lag2": 1.713,
+  "gas_lag3": 1.571,
+  "target_gas_4w": 1.376
+}

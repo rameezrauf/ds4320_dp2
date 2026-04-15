@@ -1,0 +1,11 @@
+{
+  "Date": "2000-11-27T00:00:00.000",
+  "gas_price": 1.51,
+  "wti_price": 35.91,
+  "recession": 0,
+  "wti_pct_change": 0.0588,
+  "gas_lag1": 1.545,
+  "gas_lag2": 1.524,
+  "gas_lag3": 1.53,
+  "target_gas_4w": 1.414
+}

@@ -1,3 +1,4 @@
 *.vscode
-*.csv
-*csv_download.py
+*inference.ipynb
+*combined_data/
+

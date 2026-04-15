@@ -1,0 +1,11 @@
+{
+  "Date": "2025-01-27T00:00:00.000",
+  "gas_price": 3.103,
+  "wti_price": 75.7275,
+  "recession": 0,
+  "wti_pct_change": 0.074,
+  "gas_lag1": 3.006,
+  "gas_lag2": 3.034,
+  "gas_lag3": 3.069,
+  "target_gas_4w": 3.125
+}

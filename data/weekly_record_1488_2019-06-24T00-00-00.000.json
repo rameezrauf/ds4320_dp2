@@ -1,0 +1,11 @@
+{
+  "Date": "2019-06-24T00:00:00.000",
+  "gas_price": 2.654,
+  "wti_price": 54.754,
+  "recession": 0,
+  "wti_pct_change": -0.0983,
+  "gas_lag1": 2.822,
+  "gas_lag2": 2.887,
+  "gas_lag3": 2.691,
+  "target_gas_4w": 2.75
+}

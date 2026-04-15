@@ -1,0 +1,11 @@
+{
+  "Date": "2010-02-15T00:00:00.000",
+  "gas_price": 2.608,
+  "wti_price": 73.88,
+  "recession": 0,
+  "wti_pct_change": -0.0772,
+  "gas_lag1": 2.739,
+  "gas_lag2": 2.589,
+  "gas_lag3": 2.639,
+  "target_gas_4w": 2.788
+}

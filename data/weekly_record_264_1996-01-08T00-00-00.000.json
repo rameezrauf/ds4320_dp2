@@ -1,0 +1,11 @@
+{
+  "Date": "1996-01-08T00:00:00.000",
+  "gas_price": 1.093,
+  "wti_price": 19.9875,
+  "recession": 0,
+  "wti_pct_change": 0.0667,
+  "gas_lag1": 1.063,
+  "gas_lag2": 1.063,
+  "gas_lag3": 1.087,
+  "target_gas_4w": 1.083
+}

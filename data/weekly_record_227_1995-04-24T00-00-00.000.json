@@ -1,0 +1,11 @@
+{
+  "Date": "1995-04-24T00:00:00.000",
+  "gas_price": 1.138,
+  "wti_price": 20.264,
+  "recession": 0,
+  "wti_pct_change": 0.0841,
+  "gas_lag1": 1.075,
+  "gas_lag2": 1.073,
+  "gas_lag3": 1.083,
+  "target_gas_4w": 1.197
+}

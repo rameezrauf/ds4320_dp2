@@ -1,0 +1,11 @@
+{
+  "Date": "1997-02-17T00:00:00.000",
+  "gas_price": 1.227,
+  "wti_price": 22.21,
+  "recession": 0,
+  "wti_pct_change": -0.1263,
+  "gas_lag1": 1.241,
+  "gas_lag2": 1.231,
+  "gas_lag3": 1.244,
+  "target_gas_4w": 1.2
+}

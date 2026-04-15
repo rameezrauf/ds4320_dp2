@@ -1,0 +1,11 @@
+{
+  "Date": "2011-07-04T00:00:00.000",
+  "gas_price": 3.579,
+  "wti_price": 93.702,
+  "recession": 0,
+  "wti_pct_change": -0.0715,
+  "gas_lag1": 3.781,
+  "gas_lag2": 3.965,
+  "gas_lag3": 3.791,
+  "target_gas_4w": 3.711
+}

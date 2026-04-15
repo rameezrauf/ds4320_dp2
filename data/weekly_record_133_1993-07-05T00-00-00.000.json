@@ -1,0 +1,11 @@
+{
+  "Date": "1993-07-05T00:00:00.000",
+  "gas_price": 1.086,
+  "wti_price": 18.614,
+  "recession": 0,
+  "wti_pct_change": -0.0671,
+  "gas_lag1": 1.104,
+  "gas_lag2": 1.097,
+  "gas_lag3": 1.079,
+  "target_gas_4w": 1.062
+}

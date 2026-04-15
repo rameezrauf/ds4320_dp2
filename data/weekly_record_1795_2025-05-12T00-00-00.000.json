@@ -1,0 +1,11 @@
+{
+  "Date": "2025-05-12T00:00:00.000",
+  "gas_price": 3.12,
+  "wti_price": 60.392,
+  "recession": 0,
+  "wti_pct_change": -0.0138,
+  "gas_lag1": 3.168,
+  "gas_lag2": 3.058,
+  "gas_lag3": 3.148,
+  "target_gas_4w": 3.108
+}

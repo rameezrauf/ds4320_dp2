@@ -1,0 +1,11 @@
+{
+  "Date": "1992-04-20T00:00:00.000",
+  "gas_price": 1.058,
+  "wti_price": 20.0575,
+  "recession": 0,
+  "wti_pct_change": 0.0499,
+  "gas_lag1": 1.015,
+  "gas_lag2": 1.014,
+  "gas_lag3": 1.006,
+  "target_gas_4w": 1.118
+}

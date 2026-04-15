@@ -1,0 +1,11 @@
+{
+  "Date": "2006-03-06T00:00:00.000",
+  "gas_price": 2.331,
+  "wti_price": 62.272,
+  "recession": 0,
+  "wti_pct_change": -0.0648,
+  "gas_lag1": 2.342,
+  "gas_lag2": 2.327,
+  "gas_lag3": 2.185,
+  "target_gas_4w": 2.588
+}

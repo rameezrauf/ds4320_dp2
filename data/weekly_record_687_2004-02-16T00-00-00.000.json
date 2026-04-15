@@ -1,0 +1,11 @@
+{
+  "Date": "2004-02-16T00:00:00.000",
+  "gas_price": 1.648,
+  "wti_price": 33.882,
+  "recession": 0,
+  "wti_pct_change": -0.0183,
+  "gas_lag1": 1.595,
+  "gas_lag2": 1.485,
+  "gas_lag3": 1.512,
+  "target_gas_4w": 1.724
+}

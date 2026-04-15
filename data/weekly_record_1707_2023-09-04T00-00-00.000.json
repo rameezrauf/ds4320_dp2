@@ -1,0 +1,11 @@
+{
+  "Date": "2023-09-04T00:00:00.000",
+  "gas_price": 3.807,
+  "wti_price": 82.5,
+  "recession": 0,
+  "wti_pct_change": 0.0135,
+  "gas_lag1": 3.828,
+  "gas_lag2": 3.546,
+  "gas_lag3": 3.595,
+  "target_gas_4w": 3.798
+}

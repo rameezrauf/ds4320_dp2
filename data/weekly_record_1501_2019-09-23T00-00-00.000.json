@@ -1,0 +1,11 @@
+{
+  "Date": "2019-09-23T00:00:00.000",
+  "gas_price": 2.654,
+  "wti_price": 59.332,
+  "recession": 0,
+  "wti_pct_change": 0.0691,
+  "gas_lag1": 2.574,
+  "gas_lag2": 2.715,
+  "gas_lag3": 2.713,
+  "target_gas_4w": 2.638
+}

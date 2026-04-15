@@ -1,0 +1,11 @@
+{
+  "Date": "1996-07-29T00:00:00.000",
+  "gas_price": 1.218,
+  "wti_price": 20.956,
+  "recession": 0,
+  "wti_pct_change": 0.0197,
+  "gas_lag1": 1.234,
+  "gas_lag2": 1.269,
+  "gas_lag3": 1.275,
+  "target_gas_4w": 1.209
+}

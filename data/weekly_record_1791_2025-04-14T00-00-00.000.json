@@ -1,0 +1,11 @@
+{
+  "Date": "2025-04-14T00:00:00.000",
+  "gas_price": 3.168,
+  "wti_price": 61.24,
+  "recession": 0,
+  "wti_pct_change": -0.0852,
+  "gas_lag1": 3.058,
+  "gas_lag2": 3.148,
+  "gas_lag3": 3.109,
+  "target_gas_4w": 3.12
+}

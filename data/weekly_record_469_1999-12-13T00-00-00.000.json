@@ -1,0 +1,11 @@
+{
+  "Date": "1999-12-13T00:00:00.000",
+  "gas_price": 1.275,
+  "wti_price": 26.186,
+  "recession": 0,
+  "wti_pct_change": 0.0812,
+  "gas_lag1": 1.251,
+  "gas_lag2": 1.236,
+  "gas_lag3": 1.268,
+  "target_gas_4w": 1.264
+}

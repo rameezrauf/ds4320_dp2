@@ -1,0 +1,11 @@
+{
+  "Date": "2017-05-22T00:00:00.000",
+  "gas_price": 2.399,
+  "wti_price": 49.244,
+  "recession": 0,
+  "wti_pct_change": -0.0362,
+  "gas_lag1": 2.449,
+  "gas_lag2": 2.315,
+  "gas_lag3": 2.314,
+  "target_gas_4w": 2.318
+}

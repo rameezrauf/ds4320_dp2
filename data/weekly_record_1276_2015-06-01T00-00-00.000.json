@@ -1,0 +1,11 @@
+{
+  "Date": "2015-06-01T00:00:00.000",
+  "gas_price": 2.78,
+  "wti_price": 58.185,
+  "recession": 0,
+  "wti_pct_change": 0.0036,
+  "gas_lag1": 2.664,
+  "gas_lag2": 2.413,
+  "gas_lag3": 2.487,
+  "target_gas_4w": 2.801
+}

@@ -1,0 +1,11 @@
+{
+  "Date": "2012-01-16T00:00:00.000",
+  "gas_price": 3.391,
+  "wti_price": 100.432,
+  "recession": 0,
+  "wti_pct_change": 0.0455,
+  "gas_lag1": 3.229,
+  "gas_lag2": 3.368,
+  "gas_lag3": 3.462,
+  "target_gas_4w": 3.523
+}

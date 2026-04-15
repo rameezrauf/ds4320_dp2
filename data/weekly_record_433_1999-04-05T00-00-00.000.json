@@ -1,0 +1,11 @@
+{
+  "Date": "1999-04-05T00:00:00.000",
+  "gas_price": 1.118,
+  "wti_price": 16.6075,
+  "recession": 0,
+  "wti_pct_change": 0.2872,
+  "gas_lag1": 0.921,
+  "gas_lag2": 0.927,
+  "gas_lag3": 0.941,
+  "target_gas_4w": 1.136
+}
