@@ -7,7 +7,7 @@
 **DOI:** 10.5281/zenodo.19600039
 [Link to Press Release](https://github.com/rameezrauf/ds4320_dp2/blob/main/docs/press_release.md)
 [Link to Pipeline]()
-[License]()
+[License](https://github.com/rameezrauf/ds4320_dp2/blob/main/LICENSE)
 
 ## Problem Definition
 **Problem Definition**
