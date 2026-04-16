@@ -1,4 +1,4 @@
-# Machine Learning Model predicts next months gas prices
+# Machine Learning Model predicts next month's gas price
 
 ## Hook
 
