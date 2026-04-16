@@ -1,6 +1,7 @@
 # DS 4320 Project 2 - Predicting Weekly U.S. Gasoline Prices Using Lagged WTI Oil Price Signals
 
 **Executive Summary**
+
 This project builds a complete data pipeline to analyze and predict U.S. gasoline prices using oil prices and macroeconomic indicators. Data was collected, processed into a structured format, and stored in MongoDB to support flexible analysis. A machine learning model was then used to forecast gasoline prices four weeks ahead, capturing key relationships between current conditions and future outcomes. The results show that the model is able to track overall trends in gas prices, demonstrating the value of combining data engineering and predictive modeling to generate insights from real-world economic data.
 
 **Built By: Rameez Rauf**
@@ -11,15 +12,16 @@ This project builds a complete data pipeline to analyze and predict U.S. gasolin
 
 [Link to Press Release](https://github.com/rameezrauf/ds4320_dp2/blob/main/docs/press_release.md)
 
-[Link to Pipeline]()
+[Link to Pipeline](https://github.com/rameezrauf/ds4320_dp2/blob/main/pipeline/pipeline.md)
 
 [License](https://github.com/rameezrauf/ds4320_dp2/blob/main/LICENSE)
 
 ## Problem Definition
-**Problem Definition**
+**General Problem**
 
 The general problem addressed in this project is understanding and predicting changes in U.S. gasoline prices using available economic and market data. Gasoline prices fluctuate due to a wide range of factors, including crude oil prices, macroeconomic conditions, and supply chain dynamics, making them difficult to anticipate.
 
+**Refined Specific Problem**
 The refined problem focuses specifically on whether movements in West Texas Intermediate (WTI) crude oil spot prices can be used to predict the average U.S. gasoline price four weeks into the future. This project uses a weekly time-series dataset that aligns oil prices, gasoline prices, and macroeconomic indicators to evaluate this predictive relationship.
 
 **Motivation**
@@ -31,7 +33,8 @@ The motivation for this project stems from the economic importance of gasoline p
 The problem was refined from a broad forecasting task to a focused four-week prediction using oil prices in order to improve clarity, interpretability, and feasibility. By concentrating on a single key predictor and a clearly defined time horizon, the analysis becomes easier to evaluate and explain. Additionally, using a weekly time frame ensures consistency across variables and avoids complications from mixing different data frequencies, resulting in a more reliable and interpretable model.
 
 **Press Release Headline**
-(Predicting Weekly U.S. Gasoline Prices Using WTI Crude Oil Price Dynamics)[]
+
+[Predicting Weekly U.S. Gasoline Prices Using WTI Crude Oil Price Dynamics](https://github.com/rameezrauf/ds4320_dp2/blob/main/docs/press_release.md)
 
 ## Domain Exposition 
 **Terminology**
@@ -49,9 +52,11 @@ The problem was refined from a broad forecasting task to a focused four-week pre
 | Target Variable | The variable that the model is trying to predict |
 
 **Domain Paragraph**
+
 This project operates within the domain of energy economics and financial market analysis, specifically focusing on the relationship between crude oil markets and consumer gasoline prices. Crude oil is a primary input in gasoline production, and its price is influenced by global supply and demand dynamics, geopolitical events, and macroeconomic conditions. Changes in oil prices often propagate through the supply chain and eventually affect retail gasoline prices, though typically with a time lag due to refining, distribution, and pricing mechanisms. By analyzing time-series data on oil prices, gasoline prices, and economic conditions, this project seeks to understand and model how fluctuations in upstream energy markets translate into downstream consumer prices, providing insight into short-term fuel price dynamics.
 
 **Background Readings**
+
 [Link to background readings](https://myuva-my.sharepoint.com/:f:/g/personal/xqd7aq_virginia_edu/IgBRrd_DKqb8RJaeXTRYhcOrARO8U-4qBmQsWSfEFBCTIKA?e=4vvWxk)
 
 **Table Summary**
@@ -65,6 +70,7 @@ This project operates within the domain of energy economics and financial market
 
 ## Data Creation
 **Provenance**
+
 The data for this project was collected from the Federal Reserve Economic Data (FRED) database, a publicly available and widely used source for economic and financial time series. Three datasets were used: daily West Texas Intermediate (WTI) crude oil spot prices (DCOILWTICO), weekly U.S. average gasoline prices (GASREGW), and a monthly recession indicator (USREC) based on NBER classifications. These datasets were selected because they provide reliable, standardized measures of energy market activity and macroeconomic conditions.
 
 The raw data was downloaded programmatically using Python and then cleaned and transformed to ensure consistency. The daily oil prices were aggregated into weekly averages to match the frequency of the gasoline price data. The recession indicator, originally monthly, was aligned to weekly observations using a backward merge so that each week reflects the most recent recession status. The datasets were then merged into a single time-series dataset, and additional features such as lagged gasoline prices, oil price percent changes, and a four-week-ahead gasoline price target were created to support predictive modeling.
@@ -72,15 +78,18 @@ The raw data was downloaded programmatically using Python and then cleaned and t
 **Code Table**
 | File Name | Description | Link |
 |---|---|---|
-| data_download.py | Downloads raw data from FRED, cleans and aligns datasets, engineers features, and outputs final dataset | (Link to script)[https://github.com/rameezrauf/ds4320_dp2/tree/main/scripts] |
+| data_download.py | Downloads raw data from FRED, cleans and aligns datasets, engineers features, and outputs final dataset | [Link to script](https://github.com/rameezrauf/ds4320_dp2/tree/main/scripts) |
 
 **Rationale**
+
 Several important decisions were made to ensure the dataset is both consistent and suitable for modeling. First, the analysis was conducted at a weekly level rather than daily to match the frequency of the gasoline price data and avoid inconsistencies across time scales. Second, the oil price variable was defined as the weekly average of daily spot prices rather than a single daily observation, which reduces noise and provides a more stable representation of market conditions. Third, lagged gasoline price variables at four, eight, and twelve weeks were included to capture temporal dependencies, while the target variable was defined as the gasoline price four weeks ahead to reflect a realistic delay between oil price changes and retail gasoline prices. These decisions improve interpretability while balancing model simplicity and predictive relevance.
 
 **Bias Identification**
+
 Bias may be introduced through the selection and transformation of the data. The use of national average gasoline prices ignores regional variation, which may lead to a dataset that does not fully represent local price dynamics. Additionally, aggregating daily oil prices into weekly averages smooths volatility and may obscure short-term market shocks. The dataset also excludes other important determinants of gasoline prices, such as refining capacity, taxes, and seasonal demand, which may introduce omitted variable bias.
 
 **Bias Mitigation**
+
 These biases are addressed by clearly defining the scope of the analysis and aligning all variables to a consistent weekly time frame. Aggregation is used intentionally to reduce noise and improve interpretability, even though it may remove some detail. The inclusion of lagged variables helps capture temporal patterns that are not directly observable in a single time period. While not all sources of bias can be eliminated, they are acknowledged and accounted for in interpretation, and future improvements could include adding additional explanatory variables or incorporating regional data to better capture variation in gasoline prices.
 
 ## Metadata
