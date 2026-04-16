@@ -1,12 +1,18 @@
 # DS 4320 Project 2 - Predicting Weekly U.S. Gasoline Prices Using Lagged WTI Oil Price Signals
 
 **Executive Summary**
+This project builds a complete data pipeline to analyze and predict U.S. gasoline prices using oil prices and macroeconomic indicators. Data was collected, processed into a structured format, and stored in MongoDB to support flexible analysis. A machine learning model was then used to forecast gasoline prices four weeks ahead, capturing key relationships between current conditions and future outcomes. The results show that the model is able to track overall trends in gas prices, demonstrating the value of combining data engineering and predictive modeling to generate insights from real-world economic data.
 
-**Rameez Rauf**
+**Built By: Rameez Rauf**
+
 **xqd7aq**
+
 **DOI:** 10.5281/zenodo.19600039
+
 [Link to Press Release](https://github.com/rameezrauf/ds4320_dp2/blob/main/docs/press_release.md)
+
 [Link to Pipeline]()
+
 [License](https://github.com/rameezrauf/ds4320_dp2/blob/main/LICENSE)
 
 ## Problem Definition
