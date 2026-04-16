@@ -1,4 +1,4 @@
-# DS 4320 Project 2 - Predicting Weekly U.S. Gasoline Prices Using Lagged WTI Oil Price Signals
+# DS 4320 Project 2 - Predicting Weekly U.S. Gasoline Prices Using WTI Oil Price Signals
 
 **Executive Summary**
 
