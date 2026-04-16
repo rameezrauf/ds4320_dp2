@@ -4024,13 +4024,13 @@ print("\nColumns:", df.columns.tolist())
 model_df = df.dropna().copy()
 
 features = [
-    "gas_price",
+    #"gas_price",
     "wti_price",
     "recession",
     "wti_pct_change",
-    "gas_lag1",
-    "gas_lag2",
-    "gas_lag3"
+    #"gas_lag1",
+    #"gas_lag2",
+    #"gas_lag3"
 ]
 
 target = "target_gas_4w"
@@ -4103,9 +4103,9 @@ print("RMSE:", round(rmse, 4))
 print("R^2:", round(r2, 4))
 ```
 
-    MAE: 0.1942
-    RMSE: 0.3084
-    R^2: 0.7338
+    MAE: 0.4482
+    RMSE: 0.5253
+    R^2: 0.2277
 
 
 ## Analysis complexity, feature importance
@@ -4122,13 +4122,9 @@ print(importance_df)
 ```
 
               feature  importance
-    0       gas_price    0.976824
-    1       wti_price    0.010048
-    6        gas_lag3    0.004119
-    3  wti_pct_change    0.003395
-    5        gas_lag2    0.003045
-    4        gas_lag1    0.002427
-    2       recession    0.000141
+    0       wti_price    0.984410
+    2  wti_pct_change    0.012982
+    1       recession    0.002608
 
 
 ## Create a results DataFrame
@@ -4147,11 +4143,11 @@ print(results_df.head())
 ```
 
             Date  actual_gas_4w  predicted_gas_4w     error
-    0 2019-03-04          2.691          2.507580  0.183420
-    1 2019-03-11          2.745          2.555610  0.189390
-    2 2019-03-18          2.828          2.675788  0.152212
-    3 2019-03-25          2.841          2.768627  0.072373
-    4 2019-04-01          2.887          2.762384  0.124616
+    0 2019-03-04          2.691          2.496443  0.194557
+    1 2019-03-11          2.745          2.503299  0.241701
+    2 2019-03-18          2.828          2.525569  0.302431
+    3 2019-03-25          2.841          2.569938  0.271062
+    4 2019-04-01          2.887          2.545684  0.341316
 
 
 ## Visualize results, actual vs predicted over time
