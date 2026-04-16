@@ -22,6 +22,7 @@ This project builds a complete data pipeline to analyze and predict U.S. gasolin
 The general problem addressed in this project is understanding and predicting changes in U.S. gasoline prices using available economic and market data. Gasoline prices fluctuate due to a wide range of factors, including crude oil prices, macroeconomic conditions, and supply chain dynamics, making them difficult to anticipate.
 
 **Refined Specific Problem**
+
 The refined problem focuses specifically on whether movements in West Texas Intermediate (WTI) crude oil spot prices can be used to predict the average U.S. gasoline price four weeks into the future. This project uses a weekly time-series dataset that aligns oil prices, gasoline prices, and macroeconomic indicators to evaluate this predictive relationship.
 
 **Motivation**
