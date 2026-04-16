@@ -1,4 +1,4 @@
-# Predicting Weekly U.S. Gasoline Prices Using WTI Crude Oil Price Dynamics
+# Machine Learning Model predicts next months gas prices
 
 ## Hook
 

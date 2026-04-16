@@ -35,7 +35,7 @@ The problem was refined from a broad forecasting task to a focused four-week pre
 
 **Press Release Headline**
 
-[Predicting Weekly U.S. Gasoline Prices Using WTI Crude Oil Price Dynamics](https://github.com/rameezrauf/ds4320_dp2/blob/main/docs/press_release.md)
+[Machine Learning Model predicts next months gas prices](https://github.com/rameezrauf/ds4320_dp2/blob/main/docs/press_release.md)
 
 ## Domain Exposition 
 **Terminology**
