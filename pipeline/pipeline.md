@@ -3944,7 +3944,7 @@ upload_folder_to_mongo(
     2026-04-15 21:07:19,984 | INFO | Upload complete | uploaded=0 | skipped=1839 | failed=0
 
 
-## Connect to MongoDB and pull data
+## Data Preparation
 
 
 ```python
@@ -3973,15 +3973,7 @@ db = client["project_db"]
 
 # Quick test
 print("Collections:", db.list_collection_names())
-```
 
-    Collections: ['uploaded_files', 'raw_data']
-
-
-## Data Preperation query from MongoDB into a DataFrame, data cleaning and train/test split
-
-
-```python
 # Problem: Data preparation query from MongoDB to a DataFrame
 
 import pandas as pd
@@ -4042,6 +4034,7 @@ print("Train size:", len(X_train))
 print("Test size:", len(X_test))
 ```
 
+    Collections: ['uploaded_files', 'raw_data']
             Date  gas_price  wti_price  recession  wti_pct_change  gas_lag1  \
     0 1990-11-12      1.328     33.892          1         -0.1502     1.339   
     1 1990-11-19      1.323     31.504          1         -0.1449     1.345   
@@ -4063,7 +4056,7 @@ print("Test size:", len(X_test))
     Test size: 368
 
 
-## Solution analysis, implement the model
+## Solution analysis
 
 
 ```python
@@ -4097,8 +4090,6 @@ print("R^2:", round(r2, 4))
     R^2: 0.2277
 
 
-## Analysis complexity, feature importance
-
 
 ```python
 # Feature importance helps show which inputs matter most in the model
@@ -4116,10 +4107,9 @@ print(importance_df)
     1       recession    0.002608
 
 
-## Create a results DataFrame
-
 
 ```python
+# Create a results DataFrame
 results_df = pd.DataFrame({
     "Date": dates_test.values,
     "actual_gas_4w": y_test.values,
@@ -4139,7 +4129,12 @@ print(results_df.head())
     4 2019-04-01          2.887          2.545684  0.341316
 
 
-## Visualize results, actual vs predicted over time
+## Analysis Rationale
+The analysis pipeline was designed to evaluate whether movements in WTI crude oil prices can predict U.S. gasoline prices four weeks into the future. To align with this goal, the model focuses on oil-based signals and macroeconomic context rather than gasoline price history, ensuring the results directly reflect the relationship of interest. A weekly time-series structure was used to standardize data frequency and reduce noise, with WTI prices aggregated into weekly averages and complemented by percent change features to capture market trends. A recession indicator was included to account for broader economic conditions, and the target variable was defined as gasoline price four weeks ahead to reflect real-world pricing delays.
+
+A Random Forest model was selected for its ability to capture nonlinear relationships without strong assumptions about the data. Feature importance analysis provides insight into which variables drive predictions, improving interpretability. While this simplified feature set may reduce predictive accuracy compared to models that include lagged gasoline prices, it strengthens the validity of the analysis by isolating the impact of oil prices. This tradeoff allows the model to produce more meaningful conclusions about the predictive role of WTI in gasoline price movements.
+
+## Visualize results
 
 
 ```python
@@ -4185,7 +4180,7 @@ plt.show()
 
 
     
-![png](pipeline_files/pipeline_14_0.png)
+![png](pipeline_files/pipeline_11_0.png)
     
 
 
